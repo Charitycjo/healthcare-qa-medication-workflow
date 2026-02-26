@@ -1,19 +1,56 @@
-Healthcare QA Testing Project
+# Healthcare QA – Medication Order Workflow Testing
 
-This project demonstrates quality assurance practices applied to a simulated healthcare medication ordering workflow. The goal is to validate system functionality, data accuracy, and workflow reliability similar to real-world healthcare applications.
+## Project Overview
 
-Testing Focus
+This project demonstrates quality assurance practices applied to a simulated healthcare medication ordering workflow. The objective is to validate system functionality, data accuracy, security controls, and workflow reliability similar to real-world healthcare applications.
 
-• Patient lookup
-• Medication ordering
-• Dosage validation
-• Pharmacy verification
-• Order completion
+This portfolio project reflects QA processes used in clinical and pharmacy-related systems.
 
-QA Activities Demonstrated
+---
 
-• Test planning
-• Test case design
-• Defect documentation
-• Workflow validation
-• Healthcare data considerations
+## System Workflow Covered
+
+The following workflow components were tested:
+
+- Patient lookup and validation
+- Medication order entry
+- Dosage validation and safety checks
+- Allergy conflict detection
+- Pharmacy verification process
+- Order completion and status updates
+- Audit logging
+- Role-based access control
+- UI behavior (autocomplete functionality)
+
+---
+
+## QA Activities Demonstrated
+
+This project includes:
+
+- Test planning documentation
+- Functional and negative test scenarios
+- Detailed test case design
+- Defect reporting examples
+- Security and access validation
+- Audit log verification
+- Data integrity validation
+- Usability testing considerations
+
+---
+
+## Repository Contents
+
+- `TestPlan.md` – High-level testing strategy and scope
+- `TestScenarios.md` – Functional and negative scenarios
+- `TestCases.xlsx` – Detailed structured test cases
+- `BugReportExamples.md` – Sample defect documentation
+- `SampleTestData.md` – Test data used for validation
+
+---
+
+## Objective
+
+The goal of this project is to simulate real-world healthcare QA practices, focusing on patient safety, compliance awareness, and system reliability.
+
+This project demonstrates practical QA thinking within a healthcare domain context.
