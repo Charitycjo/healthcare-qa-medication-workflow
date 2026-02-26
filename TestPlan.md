@@ -2,113 +2,116 @@
 
 ## 1. Introduction
 
-This document outlines the testing strategy for the Healthcare Medication Order Workflow system. The purpose of this testing effort is to validate functionality, data integrity, security controls, and workflow reliability within a simulated healthcare environment.
+This test plan outlines the testing strategy for the Healthcare Medication Order Workflow system.  
+The objective of this testing effort is to validate system functionality, data accuracy, workflow reliability, and security controls within a simulated healthcare application environment.
 
-This testing effort focuses on ensuring patient safety, accurate medication processing, and compliance-related considerations such as audit logging and role-based access.
+This project demonstrates structured QA practices aligned with healthcare domain standards.
 
 ---
 
 ## 2. Objectives
 
-The primary objectives of testing are:
+The primary objectives of testing are to:
 
-- Validate patient lookup functionality
-- Verify medication order creation and submission
-- Ensure dosage validation and safety checks function properly
-- Confirm allergy conflict detection
-- Validate pharmacy verification workflow
-- Verify audit log generation for medication activity
-- Confirm role-based access restrictions
-- Validate UI usability components such as autocomplete
+• Validate patient search functionality  
+• Ensure accurate medication order submission  
+• Verify dosage safety and allergy conflict handling  
+• Validate pharmacist review and verification workflow  
+• Confirm order completion process  
+• Ensure role-based access control  
+• Validate audit logging functionality  
+• Verify data persistence within patient records  
+• Assess UI usability features such as autocomplete  
 
 ---
 
-## 3. Scope of Testing
+## 3. Scope
 
 ### In Scope
 
-- Functional testing of medication order workflow
-- Negative testing (invalid dosage, missing fields)
-- Security testing (unauthorized access attempts)
-- Session management validation
-- Audit log verification
-- Data persistence validation
-- UI behavior validation
+• Patient lookup  
+• Medication order creation  
+• Dosage validation  
+• Allergy conflict detection  
+• Pharmacist verification workflow  
+• Order completion and cancellation  
+• Role-based access restrictions  
+• Session timeout validation  
+• Audit log validation  
+• UI medication search autocomplete  
 
 ### Out of Scope
 
-- Performance/load testing
-- Integration with external pharmacy systems
-- Mobile responsiveness testing
-- Real patient data validation
+• Integration with external pharmacy systems  
+• Insurance claim processing  
+• Performance and load testing  
+• Mobile application testing  
 
 ---
 
 ## 4. Test Approach
 
-Testing will be conducted using manual testing techniques.
+Testing will be conducted using a structured functional testing approach including:
 
-Test cases have been designed to include:
+• Positive testing  
+• Negative testing  
+• Boundary validation  
+• Role-based access testing  
+• Workflow validation  
+• Data integrity validation  
+• Security validation  
 
-- Positive scenarios
-- Negative scenarios
-- Edge cases
-- Security and access validation
-- Data integrity verification
-
-Defects identified during testing will be documented in structured bug reports including severity, priority, reproduction steps, and impact analysis.
+Test cases are documented in Excel and aligned with defined test scenarios.
 
 ---
 
 ## 5. Test Environment
 
-- Simulated healthcare application
-- Web-based interface
-- Role-based user accounts (Provider, Pharmacist, Billing Staff)
-- Configured session timeout
-- Audit logging enabled
+• Simulated healthcare web application  
+• Role-based user accounts (Provider, Pharmacist, Billing Staff)  
+• Configured session timeout settings  
+• Audit logging enabled  
 
 ---
 
-## 6. Test Deliverables
+## 6. Entry Criteria
 
-The following documents are included in this project:
-
-- TestPlan.md
-- TestScenarios.md
-- TestCases.xlsx
-- BugReportExamples.md
-- SampleTestData.md
+• Application accessible  
+• Test user accounts created  
+• Test patient records available  
+• Medication catalog configured  
 
 ---
 
-## 7. Entry Criteria
+## 7. Exit Criteria
 
-- System is accessible
-- Test data is available
-- User roles are configured
-
----
-
-## 8. Exit Criteria
-
-- All high-priority test cases executed
-- Critical and high-severity defects documented
-- Core workflow validated successfully
-- Audit logging and security checks verified
+• All high-priority test cases executed  
+• Critical defects resolved  
+• No open high-severity security defects  
+• Audit log validation confirmed  
 
 ---
 
-## 9. Risks
+## 8. Deliverables
 
-- Incomplete validation of edge cases
-- Assumptions made due to simulated environment
-- No integration testing with external systems
+• Test Plan document  
+• Test Scenarios document  
+• Test Cases (Excel)  
+• Defect Log  
+• Traceability Matrix (optional)  
 
 ---
 
-## 10. Conclusion
+## 9. Risks & Mitigation
 
-This test plan ensures structured validation of a healthcare medication ordering workflow with emphasis on patient safety, compliance awareness, data integrity, and system reliability.
+| Risk | Mitigation |
+|------|------------|
+| Incomplete test data | Pre-create test patient records |
+| Role misconfiguration | Validate user permissions before testing |
+| Session timeout inconsistency | Confirm timeout configuration prior to execution |
 
-The testing approach reflects real-world QA practices commonly used in healthcare technology environments.
+---
+
+## 10. Approval
+
+This test plan demonstrates structured QA documentation practices within a healthcare workflow simulation.
