@@ -45,7 +45,16 @@ This project includes:
 - `TestScenarios.md` – Functional and negative scenarios
 - `TestCases.xlsx` – Detailed structured test cases
 - `BugReportExamples.md` – Sample defect documentation
-- `SampleTestData.md` – Test data used for validation
+
+
+## Test Artifacts
+
+Detailed testing documentation is provided in the TestArtifacts folder:
+
+• Test Cases  
+• Defect Log  
+
+File: Healthcare_QA_TestArtifacts.xlsx
 
 ---
 
