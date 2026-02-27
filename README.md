@@ -43,7 +43,7 @@ This project includes:
 
 - `TestPlan.md` – High-level testing strategy and scope
 - `TestScenarios.md` – Functional and negative scenarios
-- `BugReportExamples.md` – Sample defect documentation
+- `BugReport.md` – Sample defect documentation
 
 
 ## Test Artifacts
@@ -51,7 +51,7 @@ This project includes:
 Detailed testing documentation is provided in the TestArtifacts folder:
 
 • Test Cases  
-• Defect Log  
+• Traceability Matrix 
 
 File: Healthcare_QA_TestArtifacts.xlsx
 
