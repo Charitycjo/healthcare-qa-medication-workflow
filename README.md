@@ -43,7 +43,7 @@ This project includes:
 
 - `TestPlan.md` – High-level testing strategy and scope
 - `TestScenarios.md` – Functional and negative scenarios
-- `BugReport.md` – Sample defect documentation
+- `DefectSummary.md` – Sample defect documentation
 
 
 ## Test Artifacts
