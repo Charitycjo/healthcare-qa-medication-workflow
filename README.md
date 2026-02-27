@@ -43,7 +43,7 @@ This project includes:
 
 - `TestPlan.md` – High-level testing strategy and scope
 - `TestScenarios.md` – Functional and negative scenarios
-- `TestCases.xlsx` – Detailed structured test cases
+- `TestCases pdf` – Detailed structured test cases
 - `BugReportExamples.md` – Sample defect documentation
 
 
