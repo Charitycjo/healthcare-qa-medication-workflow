@@ -53,6 +53,8 @@ Detailed testing documentation is provided in the TestArtifacts folder:
 
 • Test Cases  
 • Traceability Matrix 
+• Defect Log
+
 
 File: Healthcare_QA_TestArtifacts.xlsx
 
